@@ -1,5 +1,5 @@
 body{
-    background-color: #323436
+    background-color: #323436;
 
 }
 
@@ -27,13 +27,17 @@ div {
     border-radius: 20px;
 
 }
-
+/* fixed for position make it stay there */
 #artist1{
     margin-top: 20px;
     border-radius: 5px;
     display: inline;
     font-size: 30px;
     transition: 1000ms;
+    position: absolute;
+    top: 320px;
+    left: 40px;
+    opacity: 0.2;
 
 }
 
@@ -50,6 +54,18 @@ a{
 a:hover{
     color: #8ba0b5;
     font-size: 40px;s
+}
+
+img{
+    width:50%;
+    opacity: 0.1;
+    transition: 500ms;
+
+}
+
+img:hover{
+    width:100%;
+    opacity: 1;
 }
 
 
