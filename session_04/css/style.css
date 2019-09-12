@@ -1,0 +1,56 @@
+body{
+    background-color: #323436
+
+}
+
+p {
+
+    font-family: monospace;
+
+    color: #c97d9e;
+
+
+}
+
+div {
+    background-color: #ba91b0;
+    display: absolute;
+    top: 50%;
+    left: 50%
+
+}
+
+#third-div{
+    font-size: 50px;
+    color:#8ba0b5;
+    background-color: black;
+    border-radius: 20px;
+
+}
+
+#artist1{
+    margin-top: 20px;
+    border-radius: 5px;
+    display: inline;
+    font-size: 30px;
+    transition: 1000ms;
+
+}
+
+#artist1:hover{
+    background-color: #81ccba;
+
+}
+
+a{
+    transition: 1000ms;
+    cursor: crosshair;
+}
+
+a:hover{
+    color: #8ba0b5;
+    font-size: 40px;s
+}
+
+
+
